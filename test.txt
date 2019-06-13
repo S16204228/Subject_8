@@ -1,1 +1,48 @@
 GithuB使用说明：
+git add <文件名>
+git commit -m "备注"
+git remote add origin ssh://git@10.1.244.72:2022/S16204228/wd_16204228.git
+git remote add<连接名> ssh:xxxx.git
+git push origin master
+git push <连接名> <分支名>
+git pull --rebase origin master
+git pull --rebase <连接名><分支名>git 
+git remote rm origin
+
+git rm -r 我的文件夹/
+git rm 我的文件
+git remote add cgl ssh://git@10.1.244.72:2022/162042_subject8/162042_subject8.git
+git push cgl cgl
+git pull --rebase cgl master
+git remote rm origin
+
+
+git pull --rebase origin master
+
+ git rebase --about
+ git remote -v
+
+git branch syf
+git checkout syf
+
+git rm -r 我的文件夹/
+git rm 我的文件
+git commit -m"我的修改"
+git push origin xxxxxx
+
+git fetch cgl 别人的分支
+git merge cgl/别人的分支
+
+git branch -D 分支名
+git branch -d 分支名
+
+git push cgl :cgl
+
+
+仓库迁移：
+在新路径下执行克隆
+第一步：git clone (-bare) <ssh地址>
+第二步：进入文件夹（cd进去）
+第三步：git push --mirror <新地址>
+
+有空再好好整理吧
